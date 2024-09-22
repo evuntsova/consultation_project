@@ -1,0 +1,10 @@
+name: First Eorkflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print this
+        run: echo "Hello World"
+      - name: Print that
+        run: echo "bye"
